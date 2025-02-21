@@ -30,6 +30,11 @@ GEM
     nokogiri (1.18.2-x86_64-linux-gnu)
       racc (~> 1.4)
     racc (1.8.1)
+    re2 (2.15.0)
+      mini_portile2 (~> 2.8.7)
+    re2 (2.15.0-arm64-darwin)
+    re2 (2.15.0-x86_64-darwin)
+    re2 (2.15.0-x86_64-linux-gnu)
 
 PLATFORMS
   arm64-darwin
@@ -41,6 +46,7 @@ DEPENDENCIES
   google-protobuf (= 3.25.5)
   grpc (= 1.70.1)
   nokogiri
+  re2 (= 2.15.0)
 
 BUNDLED WITH
    2.6.5
