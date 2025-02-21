@@ -35,6 +35,10 @@ GEM
     re2 (2.15.0-arm64-darwin)
     re2 (2.15.0-x86_64-darwin)
     re2 (2.15.0-x86_64-linux-gnu)
+    sorbet (0.5.11835)
+      sorbet-static (= 0.5.11835)
+    sorbet-static (0.5.11835-universal-darwin)
+    sorbet-static (0.5.11835-x86_64-linux)
 
 PLATFORMS
   arm64-darwin
@@ -47,6 +51,7 @@ DEPENDENCIES
   grpc (= 1.70.1)
   nokogiri
   re2 (= 2.15.0)
+  sorbet (= 0.5.11835)
 
 BUNDLED WITH
    2.6.5
