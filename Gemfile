@@ -5,3 +5,4 @@ source "https://rubygems.org"
 # gem "rails"
 
 gem "nokogiri"
+gem "google-protobuf", "3.25.5"
